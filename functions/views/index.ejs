@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu Site</title>
+  </head>
+  <body>
+    <h1>Bem-vindo ao meu site</h1>
+    <p>Usuário logado: <%= client.user.username %></p>
+    <ul>
+      <% client.guilds.cache.forEach((guild) => { %>
+        <li><%= guild.name %></li>
+      <% }) %>
+    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% data.forEach(function(row){ %>
+                <tr>
+                    <td><%= row.id %></td>
+                    <td><%= row.name %></td>
+                    <td><%= row.email %></td>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
+  </body>
+</html>
