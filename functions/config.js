@@ -1,5 +1,5 @@
 module.exports = {
-    token: 'MTA1NDEwNTEwNTA2NDAxMzk3NQ.GUhTem.6Z94Gqf0vAfkfqTBFSdM1mK2X9MaENdDy-WDfc',
+    token: 'MTA1NDEwNTEwNTA2NDAxMzk3NQ.GT3Oyr.JZEYVODyanUVyAFoL5aeGFQaIjsSAKyAJKOQDU',
     prefix: '!',
     bancodedados: {
         host: '15.204.133.140',
